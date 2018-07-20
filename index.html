@@ -57,15 +57,14 @@
     .class-title {
     }
 
-    .image-splash {
-      div {
+    .image-splash-contain {
         position: relative;
         width: 300px;
         height: 300px;
         overflow: hidden;
       }
 
-      img {
+    .splash-img {
         position: absolute;
         top: -9999px;
         left: -9999px;
@@ -73,7 +72,6 @@
         bottom: -9999px;
         margin: auto;
       }
-    }
 
   </style>
 </head>
@@ -81,11 +79,11 @@
 
   <div class="w70 mx-auto mt64 bg-blue-600">
     <div class="grid--cell class-jumpoff py64 px16">
-      <div class="grid grid__allcells4 image-splash">
-        <div class="grid--cell"><img src="https://raw.githubusercontent.com/Courtny/USATF/master/img/Discus.jpg" /></div>
-        <div class="grid--cell"><img src="https://raw.githubusercontent.com/Courtny/USATF/master/img/ShotPut.jpg" /></div>
-        <div class="grid--cell"><img src="https://raw.githubusercontent.com/Courtny/USATF/master/img/Javelin.jpg" /></div>
-        <div class="grid--cell"><img src="https://raw.githubusercontent.com/Courtny/USATF/master/img/HammerThrow.jpg" /></div>
+      <div class="grid grid__allcells4">
+        <div class="grid--cell image-splash-contain"><img class="splash-img" src="https://raw.githubusercontent.com/Courtny/USATF/master/img/Discus.jpg" /></div>
+        <div class="grid--cell image-splash-contain"><img class="splash-img" src="https://raw.githubusercontent.com/Courtny/USATF/master/img/ShotPut.jpg" /></div>
+        <div class="grid--cell image-splash-contain"><img class="splash-img" src="https://raw.githubusercontent.com/Courtny/USATF/master/img/Javelin.jpg" /></div>
+        <div class="grid--cell image-splash-contain"><img class="splash-img" src="https://raw.githubusercontent.com/Courtny/USATF/master/img/HammerThrow.jpg" /></div>
       </div>
 
       <div class="class-title ta-center fc-white">
