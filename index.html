@@ -33,6 +33,19 @@
       font-size: 100%;
     }
 
+    .accordion-block ::after {
+      content: "";
+      position: absolute;
+      display: block;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -5px;
+      width: 10px;
+      height: 47px;
+      background: #d4d9dd;
+      border-radius: 5px;
+    }
+
     .class-jumpoff{
 
     }
@@ -55,8 +68,7 @@
   </div>
 
 	<div class="w70 mx-auto mt0 p32 bg-white">
-
-		<div class="grid gs32">
+		<div class="grid gs32 md:fd-column">
 			<div class="grid--cell8">
         <div>
           <h2>Welcome to the USATF Level 2 Throwing Skills Progression</h2>
@@ -69,7 +81,7 @@
            Shot-putters must develop a set of skills that at first may seem unnatural. They must learn posture and balance and feel comfortable pivoting on the ball of the foot. The arm strike in shot-putting is also unique to the event; no other sport requires a push from the front deltoid with the elbow at a 90-degree angle to the body.
         </p>
 				<div id="accordion" class="accordion-tab">
-					<h3 class="bg-black-050 p8">Beginning Skills</h3>
+					<h3 class="bg-black-050 p8 accordion-block">Beginning Skills</h3>
 					<div>
             <ul class="list-reset">
             	<li>General perceptual abilities</li>
